@@ -1,3 +1,15 @@
 .section-contacts p{
   margin: 0px !important;
 }
+header section {
+    background-color: #ffed07;
+}
+
+header nav {
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+nav .active {
+    color: #ffed07; 
+}
