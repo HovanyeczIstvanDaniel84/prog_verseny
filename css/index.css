@@ -109,9 +109,89 @@ body {
     width: 30%;
 }
 
-.articles h2 {
-    object-fit: contain;
-    object-position: center;
+.articles h4 {
+    font-size: 18px;
+    color: #fff;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover !important;
     background-image: url(../img/nyomdai-termekek-bg.jpg);
     text-transform: uppercase;
+}
+
+.articles h4 span {
+    font-weight: 700;
+}
+
+.article-container article p {
+    color: #6b6b6b;
+}
+
+.article-container article h5, .article-container p {
+    padding: 13px;
+}
+
+
+
+.article-container article p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.article-container article h5, .article-container p {
+    border-bottom: 1px solid #ccc;
+}
+
+.article-container article h5, .article-container article button {
+    text-transform: uppercase;
+}
+
+.article-container article h5 {
+    font-weight: 700 !important;
+    font-size: 15px;
+    margin: 0;
+}
+
+.article-container article button {
+    background-color: #ffff00;
+    color: #000;
+    padding: 10px;
+    border: none;
+    display: block !important;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px !important;
+}
+
+.article-container article img {
+    object-fit: cover;
+    object-position: center;
+    height: 181.31px;
+    width: 100%;
+}
+
+.article-container article {
+    border: 1px solid #ccc;
+} 
+.article-container article {
+    width: 279.27px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article-container article:not(:last-child) {
+    margin-right: 10px;
+}
+
+.article-container article:not(:first-child) {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1863px) {
+    .article-container {
+        justify-content: center !important;
+    }
+    .article-container article {
+        margin: 10px !important;
+    }
 }
