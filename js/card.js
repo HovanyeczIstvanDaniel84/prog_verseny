@@ -1,4 +1,4 @@
-class Element {
+class Card {
     #nev;
     #megrendelo;
     #meret;
