@@ -1,16 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Első programozás verseny</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/headerFooter.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
-  
+
+  <header>
+    <div>
+      <section class="header-contacts d-flex">
+        <div class="section-contacts container d-flex">
+          <p>Nyomdai termékek a <strong>legjobb árakon!</strong></p>
+          <div class="contacts d-flex">
+            <p><i class="bi bi-telephone-fill"></i> +36-70/381-6832</p>
+            <p><i class="bi bi-printer-fill"></i>info@nyomda-online.hu</p>
+          </div>
+        </div>
+      </section>
+      <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Nyomda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nyomdai termékek</a>
+              </li>
+              <li class="nav-item"></li>
+              <a class="nav-link" href="#">Referenciák</a>
+              </li>
+              <li class="nav-item"></li>
+              <a class="nav-link" href="#">Ajánlatkérés</a>
+              </li>
+              <li class="nav-item"></li>
+              <a class="nav-link" href="#">Hírek</a>
+              </li>
+              <li class="nav-item"></li>
+              <a class="nav-link" href="#">Kapcsolat</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <img src="img/search-icon.png" class="ms-5" alt="">
+              <input class="form-control search ms-3" type="search" placeholder="Kezdjen keresni itt..."
+                aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <section class="logo d-flex justify-content-center align-items-center">
+    <img src="img/nyomda-online-logo.png" alt="Logó" title="Logó">
+    <p>Nyomdai Termékek, Prospektusok, Szórólapok <span class="text-blue">Egy kézből</span></p>
+  </section>
+  <main>
+    <section class="main-content d-flex">
+      <section>
+        <p>hello:)</p>
+      </section>
+      <aside>
+        <div class="question mb-4 d-flex flex-column">
+          <div class="question-head">
+            <p><strong><span class="text-yellow">Kérdése van?</span></strong> Visszahívjuk!</span></p>
+          </div>
+          <div class="question-body">
+            <p>Adja meg a telefonszámát és kollégáink egy órán belül visszahívják Önt:</p>
+            <form>
+              <input type="tel" placeholder="Telefonszám">
+              <button class="background-yellow" type="button"><strong>Elküldöm</strong></button>
+            </form>
+          </div>
+        </div>
+        <div class="facebook d-flex flex-row mb-4">
+          <img src="img/facebook.jpg" alt="Facebook oldalunk">
+        </div>
+        <div class="partner mb-4 d-flex flex-column">
+          <div class="partner-head">
+            <p><strong><span class="text-yellow">Partnereink</span></strong> mondták</span></p>
+          </div>
+          <div class="partner-body d-flex flex-column">
+            <article class="d-flex flex-row">
+              <figure class="partner-img d-flex align-items-start me-3">
+                <img src="img/barbara.jpg" alt="Kiss Barbara">
+              </figure>
+              <div class="partner-text">
+                <p class="text-yellow"><strong>Kiss Barbara</strong></p>
+                <p class="partner-info info-mb"><i>Névjegyártya Bt.</i></p>
+                <p class="partner-info">„Nulla facilisi. Vivamus sit amet sagittis ante. Donec sem libero, gravida sed condimentum in, volutpat at magna.”</p>
+              </div>
+            </article>
+            <article class="d-flex flex-row pt-4">
+              <figure class="partner-img d-flex align-items-start me-3">
+                <img src="img/lajos.jpg" alt="Kiss Barbara">
+              </figure>
+              <div class="partner-text">
+                <p class="text-yellow"><strong>Horváth Lajos</strong></p>
+                <p class="partner-info info-mb"><i>Nagyarculat Kft.</i></p>
+                <p class="partner-info">„Nulla facilisi. Vivamus sit amet sagittis ante. Donec sem libero, gravida sed condimentum in...”</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="mb-4 news d-flex flex-column">
+          <div class="news-head">
+            <h3><strong class="text-blue">Friss</strong> híreinkből</h3>
+          </div>
+          <div class="news-body">
+            <div class="news-bottom-border">
+              <h4 class="mb-0">2016. június 16.</h3>
+              <h4 class="text-blue">Nyomtasd a jövőt!</h3>
+              <p>Az 'Érintsd meg a jövőt témával, a 2016-os Drupa az egyik legjobbnak igérkezik. Jelentős fókusz lesz a tintasugaras termelés...</p>
+              <p class="text-blue">Tovább olvasom <i class="bi bi-chevron-double-right"></i></p>
+            </div>
+            <div class="mt-3">
+              <h4 class="mb-0">2016. június 10.</h3>
+              <h4 class="text-blue">2016-os év színei a pantone ajánlásával</h3>
+              <p>A 2016-os év szineként kivételesen két árnyalatot is megnevezett a Pantone. Amint arról már számos oldal hírt adott, a korábban...</p>
+              <p class="text-blue">Tovább olvasom <i class="bi bi-chevron-double-right"></i></p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+    <section class="articles container">
+      <h4><span class="text-yellow">Keresett</span> nyomdai termékeink</h4>
+      <div class="article-container d-flex flex-wrap justify-content-between">
+        <article>
+          <h5 class="text-blue">Névjegykártyák</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Veritatis ex mollitia aspernatur optio doloribus inventore cupiditate libero sunt 
+            consequuntur perspiciatis.
+          </p>
+          <div class="img-container">
+            <img src="img/nevjegykartya.png" alt="Névjegykártya" title="Névjegykártya">
+          </div>
+          <button>Ajánlatot kérek</button>
+        </article>
+        <article>
+          <h5 class="text-blue">Csomagolás</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Veritatis ex mollitia aspernatur optio doloribus inventore cupiditate libero sunt 
+            consequuntur perspiciatis.
+          </p>
+          <img src="img/csomagolas.jpg" alt="Csomagolás" title="Csomagolás">
+          <button>Ajánlatot kérek</button>
+        </article>
+        <article>
+          <h5 class="text-blue">Címkék</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Veritatis ex mollitia aspernatur optio doloribus inventore cupiditate libero sunt 
+            consequuntur perspiciatis.
+          </p>
+          <img src="img/cimkek.jpg" alt="Címkék" title="Címkék">
+          <button>Ajánlatot kérek</button>
+        </article>
+        <article>
+          <h5 class="text-blue">Prospektusok</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Veritatis ex mollitia aspernatur optio doloribus inventore cupiditate libero sunt 
+            consequuntur perspiciatis.
+          </p>
+          <img src="img/prospektusok.jpg" alt="Prospektus" title="Prospektus">
+          <button>Ajánlatot kérek</button>
+        </article>
+      </div>
+    </section>
+  </main>
+  </div>
+  <footer>
+    <section class="logos container d-flex justify-content-between">
+      <img src="img/nyomda-online-felirat.png" alt="">
+      <img src="img/nyomda-online-logo-footer.png" alt="">
+    </section>
+    <section class="footer-lists container justify-content-between d-flex flex-wrap">
+      <div class="footer-ul">
+        <p>Rólunk-adatok</p>
+        <ul>
+          <li>Rólunk-kapcsolat</li>
+          <li>Ügyfélszolgálat</li>
+          <li>Online ajánlatkérés</li>
+          <li>Nyomdai szolgáltatások</li>
+          <li>Szerződési feltételek</li>
+          <li>Adatvédelmi tájékoztató</li>
+        </ul>
+      </div>
+      <div class="footer-ul">
+        <p>Nyomdai eljárások</p>
+        <ul>
+          <li>Ofset nyomtatás / ofset nyomda</li>
+          <li>Digitális nyomtatás</li>
+          <li>Rotációs nyomtatás</li>
+          <li>Szita nyomtatás</li>
+        </ul>
+      </div>
+      <div class="footer-ul">
+        <p>Nyomdai termékek</p>
+        <ul>
+          <li>Szórólap</li>
+          <li>Prospektus, katalógus</li>
+          <li>Névjegykártya</li>
+          <li>Levélpapír</li>
+          <li>Naptár</li>
+        </ul>
+      </div>
+      <div class="footer-ul">
+        <p>Grafika</p>
+        <ul>
+          <li>Megtervezzük táskáját</li>
+          <li>Grafikus</li>
+          <li>Grafikai anyag leadás</li>
+          <li>Árajánlat</li>
+        </ul>
+      </div>
+      <div class="footer-ul">
+        <p class="uppercase">Print brokers team kft. </p>
+        <ul>
+          <li>H-9024 Győr, Közép u. 16.</li>
+          <li><strong>Tel.:</strong> +36 70 381 6832</li>
+          <li><strong>Email:</strong> info@nyomda-online.hu</li>
+          <div class="social-icons d-flex justify-content-around">
+            <img src="img/fb-icon.png" alt="">
+            <img src="img/g-icon.png" alt="">
+            <img src="img/twitter-icon.png" alt="">
+            <img src="img/in-icon.png" alt="">
+          </div>
+        </ul>
+      </div>
+    </section>
+    <section class="copyright m-0">
+      <p >&copy; 2016 </p>
+      <p class="mx-1">&bull; </p>
+      <p class="">Nyomda-Online</p>
+      <p class="mx-1">&bull; </p>
+      <p>Minden jog fenntartva!</p>
+    </section>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
