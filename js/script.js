@@ -6,7 +6,7 @@ async function fetchData() {
 }
 
 function JSONtoObject(json) {
-    return new Element(json.nev, json.megrendelo, json.meret, json.szinek, json.darabszam, json.papirminoseg, json.kivetelezes, json.tema, json.kep);
+    return new Element(json.nev, json.megrendelo, json.meret, json.szinek, json.darabszam, json.papirminoseg, json.kivitelezes, json.tema, json.kep);
 }
 
 function displayElement(el) {

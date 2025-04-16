@@ -5,18 +5,18 @@ class Element {
     #szinek;
     #darabszam;
     #papirminoseg;
-    #kivetelezes;
+    #kivitelezes;
     #tema;
     #kep;
 
-    constructor (nev, megrendelo, meret, szinek, darabszam, papirminoseg, kivetelezes, tema, kep) {
+    constructor (nev, megrendelo, meret, szinek, darabszam, papirminoseg, kivitelezes, tema, kep) {
         this.#nev = nev;
         this.#megrendelo = megrendelo;
         this.#meret = meret;
         this.#szinek = szinek;
         this.#darabszam = darabszam;
         this.#papirminoseg = papirminoseg;
-        this.#kivetelezes = kivetelezes;
+        this.#kivitelezes = kivitelezes;
         this.#tema = tema;
         this.#kep = kep;
     }
@@ -40,7 +40,7 @@ class Element {
         return this.#papirminoseg;
     }
     get kivetelezes() {
-        return this.#kivetelezes;
+        return this.#kivitelezes;
     }
     get tema() {
         return this.#tema;
@@ -67,8 +67,8 @@ class Element {
     set papirminoseg(papirminoseg) {
         this.#papirminoseg = papirminoseg;
     }
-    set kivetelezes(kivetelezes) {
-        this.#kivetelezes = kivetelezes;
+    set kivitelezes(kivitelezes) {
+        this.#kivitelezes = kivitelezes;
     }
     set tema(tema) {
         this.#tema = tema;
@@ -95,7 +95,7 @@ class Element {
             <p><strong>Színek száma:</strong> ${this.#szinek}</p>
             <p><strong>Darabszám:</strong> ${this.#darabszam} db</p>
             <p><strong>Papírminőség:</strong> ${this.#papirminoseg}</p>
-            <p><strong>Kivitelezés:</strong> ${this.#kivetelezes}</p>
+            <p><strong>Kivitelezés:</strong> ${this.#kivitelezes}</p>
         </div>
         <img src="${this.#kep}">
         <p class="element-info"><strong>${this.#nev}</strong> <i class="bi bi-chevron-double-right"></i> ${this.#tema}</p>
