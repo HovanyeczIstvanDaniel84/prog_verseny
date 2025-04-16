@@ -5,7 +5,7 @@ body {
   font-size: 18px;
   background-image: url("../img/header-bg.png");
   background-repeat: no-repeat;
-  background-size: 100% 550px;
+  background-size: 100% 450px;
 }
 
 .background-yellow {
@@ -35,7 +35,7 @@ body {
   background-size: 100%;
   background-position: center;
   width: 100%;
-  height: 400px;
+  height: 200px;
   font-size: 16px;
 }
 
@@ -79,6 +79,14 @@ body {
   background-image: url("../img/box-3.jpg");
 }
 
+.three-boxes .col-12:first-of-type {
+  padding-left: 0px !important;
+}
+
+.three-boxes .col-12:last-of-type {
+  padding-right: 0px !important;
+}
+
 .box-arrow {
   position: relative;
   background-color: #3c3c3c;
@@ -91,7 +99,7 @@ body {
   border-radius: 50%;
   border: 5px solid #fff;
   left: 43.5%;
-  bottom: 0px;
+  bottom: -75px;
 }
 
 .main-content {
@@ -583,6 +591,22 @@ h1 {
     }
     .facebook, .pages {
         display: none !important;
+    }
+    .three-boxes article {
+      margin: 20px 0px !important;
+    }
+    .three-boxes p, .three-boxes h3 {
+      font-size: 20px;
+    }
+    .container-boxes {
+      width: 100% !important;
+    }
+    .box-arrow {
+      left: 45%;
+      bottom: -75px
+    }
+    .three-boxes .col-12 {
+      padding: 0 !important
     }
 }
 
