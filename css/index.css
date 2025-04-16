@@ -362,6 +362,67 @@ h1 {
     background-size: 115%;
 }
 
+.element {
+    position: relative;
+}
+
+.element img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.element .element-info {
+    font-size: 14px !important;
+    border-bottom: 1px solid #000;
+    font-weight: 300 !important;
+    text-transform: capitalize;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+}
+
+.element div {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 10px;
+    width: 95%;
+    height: 85%;
+    z-index: 2;
+    padding: 10px 25px;
+}
+
+.element img {
+    position: relative;
+    z-index: 3;
+}
+
+.element img:hover {
+    z-index: 1;
+}
+
+.element div:hover {
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 4;
+}
+
+.element div p {
+    font-size: 14px;
+    margin: 4px !important;
+}
+
+.element div p, .element div h3 {
+    color: #fff;
+}
+
+.element strong {
+    font-weight: 700 !important;
+}
+
+.element i {
+    font-size: 32px;
+    color: #fff;
+}
 @media only screen and (max-width: 1863px) {
     .article-container {
         justify-content: center !important;

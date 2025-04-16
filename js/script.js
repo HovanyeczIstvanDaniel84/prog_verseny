@@ -5,7 +5,7 @@ async function fetchData() {
     return await (await fetch(api)).json();
 }
 
-async function JSONtoObject(json) {
+function JSONtoObject(json) {
     return new Element(json.nev, json.megrendelo, json.meret, json.szinek, json.darabszam, json.papirminoseg, json.kivetelezes, json.tema, json.kep);
 }
 
@@ -15,7 +15,9 @@ function displayElement(el) {
 
 async function init() {
     for (let el of await fetchData()) {
+
         const obj = JSONtoObject(el);
+        console.log(obj)
         displayElement(obj);
     }
 }
