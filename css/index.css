@@ -26,10 +26,13 @@ body {
 }
 
 .three-boxes article {
-    padding: 100px 50px !important;
+    padding: 100px 40px !important;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    width: 100%;
+    height: 400px;
+    font-size: 16px;
 }
 
 .three-boxes article .flex-column {
@@ -37,7 +40,7 @@ body {
 }
 
 .box-content {
-    height: 50%;
+    height: 80% !important;
 }
 
 .three-boxes article, .three-boxes h3 {
@@ -58,4 +61,19 @@ body {
 
 .box-3 {
     background-image: url("../img/box-3.jpg");
+}
+
+.box-arrow {
+    position:relative;
+    background-color: #3c3c3c;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    left: 43.5%;
+    bottom: -10px
 }
