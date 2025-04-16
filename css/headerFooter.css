@@ -57,3 +57,28 @@ nav img {
 .container {
   width: 60% !important;
 }
+    color: #ffed07; 
+}
+
+.logo {
+    padding: 30px;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.logo span {
+    font-weight: 600;
+}
+
+.logo img { 
+    border-right: 1px solid #2b2b2b;
+}
+.logo img {
+    padding-right: 40px;
+}
+
+.logo p {
+    text-transform: uppercase;
+    margin-left: 40px !important;
+    margin-bottom: 0;
+}
