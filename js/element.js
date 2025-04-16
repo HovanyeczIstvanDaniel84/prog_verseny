@@ -79,9 +79,26 @@ class Element {
 
     toHTML() {
         return `
-        <article class="element">
-            <img src="${this.#kep}">
-            <p>${this.#nev} >> ${this.#tema}</p>
+        <article class="element col-6">
+        <div class="d-flex flex-column">
+            <figure class="d-flex flex-row justify-content-between">
+                <figure>
+                    <p><strong>Megrendelő:</strong></p>
+                    <p>${this.#megrendelo}</p>
+                </figure>
+                <figure>
+                    <i class="bi bi-search"></i>
+                </figure>
+            </figure>
+            <figure class=mt-auto></figure>
+            <p><strong>Méret:</strong> ${this.#meret}</p>
+            <p><strong>Színek száma:</strong> ${this.#szinek}</p>
+            <p><strong>Darabszám:</strong> ${this.#darabszam} db</p>
+            <p><strong>Papírminőség:</strong> ${this.#papirminoseg}</p>
+            <p><strong>Kivitelezés:</strong> ${this.#kivetelezes}</p>
+        </div>
+        <img src="${this.#kep}">
+        <p class="element-info"><strong>${this.#nev}</strong> <i class="bi bi-chevron-double-right"></i> ${this.#tema}</p>
         </article>`
     }
 }
