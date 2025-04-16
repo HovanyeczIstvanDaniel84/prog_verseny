@@ -1,0 +1,16 @@
+header section, .background-yellow {
+    background-color: #ffed07;
+}
+
+nav {
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+nav .active, .text-yellow {
+    color: #ffed07; 
+}
+
+.text-blue {
+    color: #168ec6
+}
