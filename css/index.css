@@ -391,38 +391,89 @@ h1 {
         margin: 10px !important;
     }
 }
-.sort div label img {
-  object-fit: contain;
-  margin-right: 5px;
-}
-.form-check-input {
-  display: none;
-}
-.form-check-inline {
-  padding: 2px;
-  margin-bottom: 0px !important;
-  padding-bottom: 0px !important;
-  padding-top: 2px !important;
 
-} 
-.radios {
-  border-top: 1px  rgb(129, 129, 131) solid;
-  border-bottom: 1px rgb(129, 129, 131) solid;
-  background-color: rgb(242, 242, 242);
-  padding: 10px;
+@media only screen and (max-width: 1260px) {
+    .section-contacts span {
+        display: none;
+    }
 }
 .sortp {
   color: rgba(123, 123, 123, 0.658) !important;
   font-weight: 300;
 }
+@media only screen and (max-width: 750px) {
+    .section-contacts {
+        display: none !important;
+    }
+    .logos {
+        display: none !important;
+    }
+    footer {
+        padding-top: 20px;
+    }
+    .footer-ul:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }   
+}
 
+@media only screen and (max-width: 1500px) {
+    .container, .main-content {
+        width: 100% !important;
+    }
+}
 
-@media only screen and (max-width: 1863px) {
-  .article-container {
-    justify-content: center !important;
-  }
+@media only screen and (max-width: 1200px) {
+    .main-content {
+        flex-wrap: wrap;
+    }
+    .main-content section, .main-content aside {
+        width: 100% !important;
+    }
+    .partner-img {
+        width: unset !important
+    }
+    aside {
+        padding: 10px;
+    }
+    aside form button {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .facebook {
+        display: none !important;
+    }
+}
 
-  .article-container article {
-    margin: 10px !important;
-  }
+@media only screen and (max-width: 1000px) {
+    .logo {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer-ul {
+        width: 100% !important;
+        text-align: center;
+    }
+    .footer-lists {
+        justify-content: center !important;
+    }
+    .logo p, .copyright p {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    nav .container {
+        padding: 10px !important;
+    }
+    nav form img {
+        margin-left: 0 !important;
+    }
+    nav form {
+        width: 100% !important;
+    }
 }
