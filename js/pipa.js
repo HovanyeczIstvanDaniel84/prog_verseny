@@ -7,3 +7,4 @@ radios.forEach(element => {
     document.querySelector(`.${element.classList[2]} img`).src = "img/pipa-active.png"
   })
 });
+console.log("Hello world")
