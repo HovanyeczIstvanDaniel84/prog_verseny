@@ -30,7 +30,7 @@ nav .active {
 .nav-link {
   color:#fff !important;
   text-transform: uppercase;
-  padding: 8px 22px 8px 0px !important;
+  padding: 8px 25px 8px 0px !important;
   font-size: 14px;
   font-weight: 700;
 }
@@ -55,7 +55,7 @@ nav img {
   width: 35.3% !important;
 }
 .container {
-  width: 60% !important;
+  width: 65% !important;
 }
 
 .logo {

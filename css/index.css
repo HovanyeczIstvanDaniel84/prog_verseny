@@ -35,6 +35,10 @@ body {
     font-size: 16px;
 }
 
+.three-boxes h3 {
+    font-size: 24px;
+}
+
 .three-boxes article .flex-column {
     height: 100%;
 }
@@ -75,11 +79,11 @@ body {
     border-radius: 50%;
     border: 5px solid #fff;
     left: 43.5%;
-    bottom: -10px
+    bottom: 0px;
 }
 
 .main-content {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 
