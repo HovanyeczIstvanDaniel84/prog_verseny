@@ -382,6 +382,43 @@ h1 {
     background-position: center;
     background-size: 115%;
 }
+.form-check-label img{
+  object-fit: contain;
+  margin-right: 5px;
+}
+.form-check-inline {
+  padding: 0px !important;
+  margin-left: 2px !important;
+}
+.form-check-input {
+  display: none;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.sort div label {
+  font-size: 16px;
+  color: rgb(170, 170, 170);
+}
+.sort div label img {
+  object-fit: contain;
+  margin-right: 5px;
+}
+.form-check-input {
+  display: none;
+}
+.form-check-inline {
+  padding: 2px;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 2px !important;
+
+} 
+.radios {
+  border-top: 1px  rgb(129, 129, 131) solid;
+  border-bottom: 1px rgb(129, 129, 131) solid;
+  background-color: rgb(242, 242, 242);
+  padding: 10px;
+}
 
 @media only screen and (max-width: 1863px) {
     .article-container {
