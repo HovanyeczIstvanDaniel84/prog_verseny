@@ -62,7 +62,9 @@ body {
 .partner-head,
 .news-head,
 .news-body .text-blue {
-  text-transform: uppercase;
+  text-transform: uppercase;}
+.three-boxes h3, .question-head, .question-body button, .partner-head, .news-head, .news-body .text-blue, .ad-head {
+    text-transform: uppercase;
 }
 
 .box-1 {
@@ -361,6 +363,33 @@ h1 {
 .sort div label {
   font-size: 16px;
   color: rgb(170, 170, 170);
+}
+.ad-head {
+    font-size: 14px;
+    color: #828282;
+}
+
+.ad-border {
+    border-bottom: 1px solid #ccc;
+    height: 20px !important;
+}
+
+.ad .ad-body {
+    width: 100% !important;
+    height: 200px !important;
+    background-image: url("../img/reklam.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 115%;
+}
+
+@media only screen and (max-width: 1863px) {
+    .article-container {
+        justify-content: center !important;
+    }
+    .article-container article {
+        margin: 10px !important;
+    }
 }
 .sort div label img {
   object-fit: contain;
