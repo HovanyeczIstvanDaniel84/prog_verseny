@@ -1,1 +1,14 @@
-  
+.main-content, .articles, .container {
+    width: 100% !important;
+}
+
+.pages {
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.articles {
+    padding: 0 !important;
+}
