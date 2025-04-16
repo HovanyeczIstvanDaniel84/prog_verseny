@@ -137,7 +137,7 @@ body {
 }
 
 
-.articles h4 {
+.articles h4, .pls {
   font-size: 18px;
   color: #fff;
   padding: 15px;
@@ -469,6 +469,9 @@ h1 {
     margin: 4px !important;
 }
 
+#element-container {
+}
+
 .element div p, .element div h3 {
     color: #fff;
 }
@@ -608,6 +611,10 @@ h1 {
     .three-boxes .col-12 {
       padding: 0 !important
     }
+    
+    .WALTER_WHITE {
+        padding: 10px !important;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -637,6 +644,12 @@ h1 {
         margin-left: 0 !important;
     }
     nav form {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .element {
         width: 100% !important;
     }
 }
