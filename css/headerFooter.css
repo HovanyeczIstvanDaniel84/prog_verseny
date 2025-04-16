@@ -7,13 +7,17 @@ header section {
 }
 
 header nav {
-  background-color: #2e2e2e !important;
+  background-color: #2e2e2edc !important;
   color: #fff;
 }
 
 nav .active,
 .footer-ul p {
   color: #ffed07 !important;
+}
+
+.social-icons img {
+  cursor: pointer;
 }
 
 .section-contacts {
@@ -61,9 +65,13 @@ nav img {
   padding: 0px !important;
 }
 
+.nav-link {
+  white-space: nowrap;
+}
+
 .navbar form {
   height: 100%;
-  width: 38.5% !important;
+  width: 38.5%;
 }
 
 .container {
@@ -90,6 +98,10 @@ nav img {
 
 .logo img {
   padding-right: 40px;
+}
+
+nav form img {
+  margin-left: 3rem;
 }
 
 .logo img {
