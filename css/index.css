@@ -469,7 +469,7 @@ h1 {
     font-weight: 700 !important;
 }
 
-.element i {
+.element div i {
     font-size: 32px;
     color: #fff;
 } 
@@ -492,6 +492,35 @@ h1 {
     background-color: #fff;
     padding: 30px;
 }
+
+.pages div {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    color: #fff;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages .page-active {
+    background-color: #000;
+}
+
+.pages div, .pages .page-active {
+    font-weight: 700;
+}
+
+.pages div:last-of-type, .pages div:first-of-type {
+    background-color: #ffed07;
+    color: #000;
+}
+
+.pages div:last-of-type, .pages div:first-of-type {
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 1863px) {
     .article-container {
         justify-content: center !important;
