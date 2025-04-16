@@ -419,7 +419,10 @@ h1 {
   background-color: rgb(242, 242, 242);
   padding: 10px;
 }
-
+.sortp {
+  color: rgb(156, 156, 156) !important;
+  font-weight: 600 !important;
+}
 @media only screen and (max-width: 1863px) {
     .article-container {
         justify-content: center !important;
@@ -434,10 +437,7 @@ h1 {
         display: none;
     }
 }
-.sortp {
-  color: rgba(123, 123, 123, 0.658) !important;
-  font-weight: 300;
-}
+
 @media only screen and (max-width: 750px) {
     .section-contacts {
         display: none !important;
